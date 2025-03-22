@@ -1,0 +1,91 @@
+    body{
+        display: flex;
+        justify-content: center;
+        margin: 130px;
+        background-color: whitesmoke;
+
+
+    }
+    .cardBody{
+        background-color: green;
+        box-shadow: 10px 10px 10px 5px lightgreen ;
+    }
+    .carImg{
+        width: 91%;
+        height: 190px;
+        padding: 15px;
+    }
+    .cardContent{
+        color: white;
+        padding: 10px;
+    }
+    .car{
+        background-color: red;
+        display: inline-block;
+        margin: 3px 5px;
+        border-radius: 5px;
+        width: 50px;
+        text-align: center;
+        color: darkblue;
+    }
+    .pickColor{
+        display: flex;
+        gap: 5px;
+        margin-left: 5px;
+    }
+    .Red{
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        margin: 5px;
+    }
+    .White{
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        border-radius: 50%;
+        border: none;
+        color: Black;
+        margin: 5px;
+    }
+    .Black{
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        margin: 5px;
+
+    }
+    .price{
+        margin: 5px;
+        font-size: larger;
+    }
+    .Btn{
+        width: 100px;
+        margin-left: 130px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        padding: 6px;
+        
+    }
+    .Btn:hover{
+        background-color: red;
+        box-shadow: 3px 3px lightgray;
+        border: none;
+    }
+    p{
+        color: white ;
+    }
+    i{
+        color: black;
+    }
+   
+   
+    
+
+

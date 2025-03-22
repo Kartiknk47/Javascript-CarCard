@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarCard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cardBody">
+        <img src="assets/RedCar.jpg" alt="RedCar" id="ImgChange" class="carImg">
+
+
+        <div class="cardContent">
+        <div class="car">Car</div>
+        <div>TOYATO FORTUNER LEGEND 2025</div>
+        <p><i class="fa-solid fa-car"></i> Mileage: 4000miles</p>
+        <p><i class="fa-solid fa-gas-pump"></i> Fuel: 30mpg </p>
+        <p><i class="fa-solid fa-shield"></i> Safety:
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> </p>
+        </div>
+        <div class="pickColor">Pick a color:</div>
+        <button class="Red" onclick="selectRed()"></button>
+        <button class="White" onclick="selectWhite()"></button>
+        <button class="Black" onclick="selectBlack()"></button>
+        <div class="price"><span>$134,450  <del>$140500</del></span></div>
+        <button class="Btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+    </div>
+    <script>
+        function selectRed(){
+            document.querySelector(".car").style.backgroundColor = 'aqua'
+            imgTag = document.getElementById("ImgChange")
+            imgTag.src="assets/RedCar.jpg"
+        }
+        function selectWhite(){
+            White1 = document.querySelector(".car")
+            White1.style.backgroundColor = 'White'
+            imgTag = document.getElementById("ImgChange")
+            imgTag.src = "assets/WhiteCar.jpg"
+        }
+        function selectBlack(){
+            White1 = document.querySelector(".car")
+            White1.style.backgroundColor = 'Black'
+            imgTag = document.getElementById("ImgChange")
+            imgTag.src = "assets/BlackCar.jpg"
+        }
+
+
+    </script>
+    
+</body>
+</html>
